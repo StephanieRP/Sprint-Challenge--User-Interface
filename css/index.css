@@ -173,11 +173,51 @@ p {
 
 /*       About Section        */
 
+.top-about {
+    padding-bottom: 10px;
+}
+.top-about h3,
+.top-about p {
+    margin: 10px;
+}
 
+.about-main {
+    border-top: 1px dashed black;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
 
+.about-us {
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
+    padding-right: 10px;
+}
 
+.about-us button {
+    outline: none;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 12px;
+}
 
+.about-us h3 {
+    margin-top: 10px;
+}
 
+.about-us p {
+    margin-bottom: 10px;
+}
+
+.about-collab {
+    margin: 0 20px 20px;
+}
 
 /*      Footer Section         */
 
