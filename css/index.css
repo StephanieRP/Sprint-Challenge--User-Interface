@@ -66,6 +66,21 @@ p {
     line-height: 1.4;
 }
 
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    /* border: 1px solid black; */
+}
+
+.top-nav a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    align-self: flex-end;
+
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +92,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img {
+    margin: 10px 0 20px 0;
 }
 
 .top-content .text-container {
@@ -111,6 +130,134 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .box:first-child {
+    background: teal;
+}
+
+.middle-content .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .box:last-child {
+    background: dodgerblue;
+}
+
+/*       About Section        */
+
+.top-about {
+    padding-bottom: 10px;
+}
+.top-about h3,
+.top-about p {
+    margin: 10px;
+}
+
+.about-main {
+    border-top: 1px dashed black;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.about-us {
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
+    padding-right: 10px;
+}
+
+.about-us button {
+    outline: none;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 10px 0 20px 0;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.about-us h3 {
+    margin-top: 10px;
+}
+
+.about-us p {
+    margin-bottom: 10px;
+}
+
+.about-collab {
+    margin: 0 20px 20px;
+}
+
+/*      Contact Section         */
+.contact-section {
+    /* margin-bottom: 50%; */
+    width: 50%;
+    margin: 17% auto;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 55px;
+}
+
+.contact-section h2 {
+    text-transform: uppercase;
+}
+
+.contact-section p{
+    margin-bottom: 10px;
+}
+
+.contact-section form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-section input{
+    width: 70%;
+    border: gray solid 2px;;
+    outline: none;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.contact-section input:last-child {
+    width: 50%;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+/*      Footer Section         */
 
 .bottom-content {
     display: flex;
