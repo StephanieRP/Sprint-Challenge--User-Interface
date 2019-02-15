@@ -202,7 +202,7 @@ p {
     border: black solid 2px;
     border-radius: 5px;
     padding: 5px 15px;
-    margin: 10px 0;
+    margin: 10px 0 20px 0;
     cursor: pointer;
     font-size: 12px;
 }
